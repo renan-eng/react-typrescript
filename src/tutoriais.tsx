@@ -16,7 +16,7 @@ type Pessoa = {
 
 let person: Pessoa = {
   nome: "Renan",
-  idade: 32,
+  //idade: 32, //é opcional pq o objeto pessoa possui o atributo 'idade?: number' -> '?'
 }
 
 let muitasPessoas: Pessoa[];
