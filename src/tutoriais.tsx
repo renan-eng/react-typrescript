@@ -19,15 +19,16 @@ let person: Pessoa = {
   //idade: 32, //é opcional pq o objeto pessoa possui o atributo 'idade?: number' -> '?'
 }
 
-let muitasPessoas: Pessoa[];
+let muitasPessoas: Pessoa[]; // para croar um Array de objetos Pessoa
 
 
 //Criando funções
-function printNome(nome: string) { //nome : string precisa ser declado o tipo esperado para cada variável
-  console.log(nome);
-}
+// function printNome(nome: string) { //nome : string precisa ser declado o tipo esperado para cada variável
+//   console.log(nome);
+// }
 
-printNome("Renan");
+// printNome("Renan");
+let printNome: (nome: string) => never; //void retorn undefine enquanto que never nao retorna nada
 
 function Tutoriais () {
   
