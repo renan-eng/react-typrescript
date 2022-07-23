@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 //Como declarar variáveis e tipos
@@ -30,5 +29,13 @@ function App() {
     </div>
   );
 }
+
+
+//Criando funções
+function printNome(nome: string) { //nome : string precisa ser declado o tipo esperado para cada variável
+  console.log(nome);
+}
+
+printNome("Renan");
 
 export default App;
