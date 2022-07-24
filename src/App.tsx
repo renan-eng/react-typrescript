@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Tutoriais from './tutoriais';
 
 Tutoriais();
 const App: React.FC = () => {
+  const [todo, setTodo] = useState<string>();
   return (
     <div className="App">
       <span className='heading'>Tarefas</span>
