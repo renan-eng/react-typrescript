@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import Tutoriais from './tutoriais';
+import InputField from './components/InputField'
 
 Tutoriais();
 const App: React.FC = () => {
