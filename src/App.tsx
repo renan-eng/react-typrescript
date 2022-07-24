@@ -9,6 +9,9 @@ const App: React.FC = () => {
   const [todo, setTodo] = useState<string>("");
   const [todos, setTodos] = useState<Todo[]>([]);
 
+  const handleAdd = (e: React.FormEvent) => {
+    e.preventDefault(); //Evita que a página seja recarrega ao pressionar submit
+  };
 
   //console.log(todo); //checando se o componente InputField esta recebendo todo
 
