@@ -5,7 +5,7 @@ import InputField from './components/InputField'
 
 Tutoriais();
 const App: React.FC = () => {
-  const [todo, setTodo] = useState<string>();
+  const [todo, setTodo] = useState<string>("");
   return (
     <div className="App">
       <span className='heading'>Tarefas</span>
