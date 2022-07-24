@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Tutoriais from './tutoriais';
 import InputField from './components/InputField'
+import { Todo } from './model';
 
 Tutoriais();
 const App: React.FC = () => {
