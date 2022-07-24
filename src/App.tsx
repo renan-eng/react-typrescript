@@ -3,7 +3,7 @@ import './App.css';
 import Tutoriais from './tutoriais';
 
 Tutoriais();
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
       <span className='heading'>Tarefas</span>
