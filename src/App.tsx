@@ -18,7 +18,7 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <span className='heading'>Tarefas</span>
-      <InputField todo={todo} setTodo={setTodo} />
+      <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd} />
     </div>    
   );
 }
