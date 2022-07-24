@@ -6,8 +6,9 @@ Tutoriais();
 function App() {
   return (
     <div className="App">
-      Typescript - React App
-    </div>
+      <span className='heading'>Tarefas</span>
+      <InputField />
+    </div>    
   );
 }
 
