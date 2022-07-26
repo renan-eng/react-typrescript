@@ -1,5 +1,9 @@
 import React from 'react'
 import { Todo } from '../model';
+import { AiFillEdit, AiFillDelete  } from 'react-icons/ai'
+import { MdDone } from 'react-icons/md'
+import './styles.css'
+
 
 const singleTodo = () => {
 type Props = {
@@ -10,7 +14,20 @@ type Props = {
 
 const singleTodo = ({ todo, todos, setTodos}:Props) => {
   return (
-    <div>singleTodo</div>
+    <form className='todos__single' >
+      <span className='todos__single--text'>{todo.todo}</span>
+      <div className="className">
+        <span className="icon">
+          <AiFillEdit /> 
+        </span>
+        <span className="icon"> 
+          <AiFillDelete /> 
+        </span>
+        <span className="icon">
+          <MdDone /> 
+        </span>
+      </div>
+    </form>
   )
 }
 
