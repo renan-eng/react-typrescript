@@ -5,7 +5,7 @@ import InputField from './components/InputField';
 import { Todo } from './model';
 import TodoList from './components/TodoList';
 
-Tutoriais();
+//Tutoriais(); //Pequeno tutorial sobre typescript
 const App: React.FC = () => {
   const [todo, setTodo] = useState<string>("");
   const [todos, setTodos] = useState<Todo[]>([]);
