@@ -5,7 +5,6 @@ import { MdDone } from 'react-icons/md'
 import './styles.css'
 
 
-const singleTodo = () => {
 type Props = {
   todo: Todo;
   todos: Todo[];
