@@ -7,16 +7,22 @@
 
 .input__box {
     width: 100%;
+    background-color: #44475a;
     border-radius: 50px;
     padding: 20px 30px;
     font-size: 25px;
     border: none;
     transition: 0.2s;
     box-shadow: inset 0 0 5px black;
+    color: #f8f8f2;
+}
+
+.input__box::placeholder {
+    color: rgba(248, 248, 242, .5)
 }
 
 .input__box:focus {
-    box-shadow: 0 0 10px 1000px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px 1000px rgba(40, 42, 54, .95);
     outline: none;
 }
 
@@ -28,19 +34,20 @@
     right: 0px;
     border-radius: 50px;
     font-size: 15px;
-    background-color: black;
+    background-color: #bd93f9FF;
     color: white;
     transition: 0.2s all;
-    box-shadow: 0 0 10px rgb(0, 0, 0);
+    box-shadow: 0 0 10px #282a36;
+    border: none;
 }
 
 .input__submit:hover {
-    background-color: rgb(44, 44, 44);
+    background-color: #282a36;
 }
 
 .input__submit:active {
     transform: scale(0.8);
-    box-shadow: 0 0 8px black;
+    box-shadow: 0 0 5px #282a36;
 }
 /* estilo da lista de tarefas */
 .todos {
