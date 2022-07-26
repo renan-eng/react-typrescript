@@ -34,7 +34,7 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
-      <span className='heading'>Tarefas</span>
+      <span className='heading'>Lista de Tarefas</span>
       <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd} />
       <TodoList todos={todos} setTodos={setTodos} />
     </div>    
